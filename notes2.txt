@@ -47,12 +47,26 @@ NOTE : About git
 			]
 			
 			Diffrance between : 
-									[git push -u origin --all] 
-								and [git push -u origin master]
+									[git push -u origin --all]  
+								and [git push -u origin master] 
 								and [git push fetch from origin main].
 								
-					Answer:						
+					Answer:				
+					git push -u origin branch_name
+			
+			
+			[This is the way we can push code to the github localy as well as remotly]
 			
 			
 			
-			
+### important diffrance between [git checkout] and [git switch]
+
+	git checkout has two purpose
+		1. [git checkout branch_name] <-- it will switch the branch
+		2. [git checkout file_Name] <-- it will reset file to certain revisions
+	now we can clearly see that git checkout can do both work, it can be confusing
+		some time so git has introduced seprate command for that
+		
+	[git switch branch_name] for branch switching ||as  git checkout <branchname> does
+	[git restore ]	to reset files to certain revision ||as  git checkout -- <path_to_file> does
+	
