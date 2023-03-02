@@ -51,8 +51,8 @@ NOTE : About git
 								and [git push -u origin master]
 								and [git push fetch from origin main].
 								
-					Answer:						
+					Answer:				
 			
 			
-			
+			[This is the way we can push code to the github localy as well as remotly]
 			
