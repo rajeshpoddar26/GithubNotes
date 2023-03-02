@@ -51,7 +51,13 @@ NOTE : About git
 								and [git push -u origin master]
 								and [git push fetch from origin main].
 								
-					Answer:						
+					Answer:	
+						
+						
+						NOTE: if we are writing code in
+							main branch then commit that branch only 
+							by using [git push -u origin master]
+						created main branch
 			
 			
 			
