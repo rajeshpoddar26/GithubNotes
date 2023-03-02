@@ -70,3 +70,17 @@ NOTE : About git
 	[git switch branch_name] for branch switching ||as  git checkout <branchname> does
 	[git restore ]	to reset files to certain revision ||as  git checkout -- <path_to_file> does
 	
+	
+	NOTE: Want to first change the branch then do this
+	#for deleting the branch 
+	[git branch -D deleteMe] /if merged sucessfully
+	or
+	[git branch --delete --force] / without checking merged status
+	
+	## want to rename the branch then got to that 
+		branch and then do the nedfull
+		
+		[git branch -m newBranch]
+		
+		
+		
