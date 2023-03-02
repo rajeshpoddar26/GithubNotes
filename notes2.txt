@@ -1,0 +1,58 @@
+NOTE : About git 
+
+
+
+# git have default branch which is master and then 
+	if i want to create new branch then we can go for 
+	[git checkout -b branch_name]
+# and then if want to switch to that branch then use
+	[git checkout branch_name] now our working branch is this (branch_name)
+
+# we can modify or change anything in this branch both will be independent with 
+	each other but at the same time if i want to marge both branch we can 
+		murge it by using otheer command
+
+### Till the time git command i have learend or use it is as folows
+			[
+				{
+				git init <-- create .git in the folder to access git
+				git status <-- check status of the git whether file is updated
+								or not if updated then commit those changes
+								but first try to check which branch currently 
+								you are working
+				git branch <-- it shows current branch.
+				
+				git add updated_file <-- new file got added to git for commit
+				or 
+				git add . <-- if you want to add multiple updated  file same time
+								into git
+				git commit -m "commit message"	<-- commit the file which we were
+													added into git by using [git add .]									
+				},
+				(these all commit is happening localy if i want to commit into remote
+					repositry or git repositry then we need to do few things)
+				{
+					step1: create a new repositry in github (project name should be same)
+					step2: take the url of that project it should be something like this
+								[git remote add origin https://github.com/rajeshpoddar26/GithubNotes.git]
+								
+					step3: to push the code into git 
+							[git push -u origin main]
+				}
+				NOTE: suppose if you have two branch separate for example 
+				
+				master and sub_master then in this senario if i want to push 
+				this sub_master into git repo then we need to use this command
+					[git push -u origin --all]		
+			]
+			
+			Diffrance between : 
+									[git push -u origin --all] 
+								and [git push -u origin master]
+								and [git push fetch from origin main].
+								
+					Answer:						
+			
+			
+			
+			
