@@ -58,6 +58,11 @@ NOTE : About git
 							main branch then commit that branch only 
 							by using [git push -u origin master]
 						created main branch
+						
+						
+						C:\Users\Rajesh\Desktop\FirstFolder>git switch branch101
+fatal: cannot switch branch while merging
+Consider "git merge --quit" or "git worktree add".
 			
 			
 			
