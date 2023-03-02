@@ -47,11 +47,12 @@ NOTE : About git
 			]
 			
 			Diffrance between : 
-									[git push -u origin --all] 
-								and [git push -u origin master]
+									[git push -u origin --all]  
+								and [git push -u origin master] 
 								and [git push fetch from origin main].
 								
 					Answer:				
+					git push -u origin branch_name
 			
 			
 			[This is the way we can push code to the github localy as well as remotly]
